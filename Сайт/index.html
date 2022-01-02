@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Главная</title>
+  <link rel="icon" href="img/one.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="//vk.com/js/api/openapi.js?169"></script>
+  <style>
+    body {
+      background: #edf2f7;
+    }
+
+    details {
+      display: block;
+      width: 75%;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    summary {
+      display: block;
+      padding: .3em 1em .2em .9em;
+      cursor: pointer;
+      position: relative;
+    }
+
+    summary:before {
+      top: .4em;
+      right: .3em;
+      color: transparent;
+      background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTYuNTkgOC41OUwxMiAxMy4xNyA3LjQxIDguNTkgNiAxMGw2IDYgNi02eiIvPjxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz48L3N2Zz4=") no-repeat 50% 50% / 1em 1em;
+      width: 1em;
+      height: 1em;
+      content: "";
+      position: absolute;
+      transition: transform .5s;
+    }
+
+    details[open]>summary:before {
+
+      transform: scale(1, -1);
+    }
+
+    summary~* {
+      padding: 0 1em 10px 1.4em;
+    }
+
+    details[open] summary~* {
+      animation: sweep .5s ease-in-out;
+    }
+
+    @keyframes sweep {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header-inner">
+        <div class="name">
+          <h1>Авиация Карелии и России</h1>
+        </div>
+        <div class="nav">
+          <p class="nav-link"> <a href="index.html">Главная</a></p>
+          <p class="nav-link"> <a href="select.html">Скачать</a></p>
+          <p class="nav-link"> <a href="map.html">Аэропорты</a></p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="img/bcD4dhvcHC8.jpg" style="width:100%">
+      <h1 class="text">Добро пожаловть на сайт проекта- Авиация Карелии и России!</h1>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="img/Bdm1Y0mYDN8.jpg" style="width:100%">
+      <h1 class="text">Аэропорт Калевала <a href="https://vk.com/album-204467924_278009756"><button class="linkphoto">
+            <p>Полный фотоальбом</p>
+          </button></a></h1>
+    </div>
+
+    <!-- <div class="mySlides fade">
+      <img src="//www.pro-israel.ru/wp-content/gallery/moskva-netaniya/transaero-airlines-boeing-737-800.jpg"
+        style="width:100%">
+      <h1 class="text"></h1>
+    </div> -->
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+  </div>
+
+  <div class="g">
+    <a name="top"></a>
+    <h1 class="nas">О нас</h1>
+    <section>
+      <div class="flex">
+        <div class="five">
+          <h2>Кто мы такие?</h2>
+          <p>Мы группа энтузиастов которые создают дополнения для авиасимуляторов
+            (пока только X-plane 11)</p>
+        </div>
+        <div class="six">
+          <h2>Что будет в этом проекте?</h2>
+          <p>В этом проекте мы будем делать дополнения для авиасимуляторов и публиковать фото, видео-материалы про
+            авиацию Карелии и возможно, про авиацию всей России</p>
+        </div>
+        <div class="seven">
+          <h2>Цели проекта</h2>
+          <ol>
+            <li>
+              <p>Узнать про авиацию Карелии как можно больше.</p>
+            </li>
+            <li>
+              <p>Создать как можно больше качественных дополнений для авиасимуляторов.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <a name="kontakt"></a>
+      <h1 class="nas">Контакты</h1>
+      <div class="eight">
+        <h2>E-mail</h2>
+        <h3>test@gmail.com</h3>
+        <div class="nine">
+          <h2>Вконтакте </h2>
+        </div>
+      </div>
+      <!-- VK Widget -->
+      <div id="vk_groups"></div>
+      <script type="text/javascript">
+        VK.Widgets.Group("vk_groups", {
+          mode: 3
+        }, 204467924);
+      </script>
+    </section>
+  </div>
+  <footer>
+    <h1 class="box2">2021</h1>
+    <h4 class="onet">Сайт разработан <a href="//vk.com/delagin87"><span>Димой Елагиным</span></a></h4>
+  </footer>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

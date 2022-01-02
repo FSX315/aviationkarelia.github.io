@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/*ПЛАШКА*/
+body::-webkit-scrollbar {
+    width: 5px;
+    height: 7px;
+}
+
+body::-webkit-scrollbar-track {
+    background: none;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #849d04;
+    border-radius: 10px;
+}
+
+/**/
+.maps {
+    width: 100%;
+    height: 100%;
+}
+
+pre {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+
+.aer {
+    display: inline-block;
+    width: 250px;
+    justify-content: left;
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 1.8em;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+span {
+    color: white;
+}
+
+.header-inner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    margin-left: 4rem;
+    display: block;
+}
+
+.nav {
+    display: flex;
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+.nav-link {
+    margin-left: 1.5rem;
+}
+
+.name {
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.txt1 {
+    color: black;
+    display: inline-block;
+    width: 100%;
+    font-size: 1.5em;
+    padding-left: 10px;
+}
+
+.txtt {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    -webkit-box-shadow: 1px 6px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 1px 6px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 1px 6px 8px 0px rgba(34, 60, 80, 0.2);
+    padding: 0;
+    height: 100%;
+    background-color: #C4C4C4;
+}
+
+.download {
+    color: white;
+}
+
+.box {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+button {
+    padding-left: 10px;
+    display: inline-block;
+    background-color: #C4C4C4;
+    border: none;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    background-color: black;
+}
+
+.box2 {
+    color: white;
+    text-align: center;
+}
+
+.nas {
+    font-size: 2em;
+    padding: 0;
+    text-align: center;
+}
+
+.five {
+    padding-left: 1em;
+    width: 30%;
+    height: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+.six {
+    padding-left: 1em;
+    width: 35%;
+    height: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+.seven {
+    padding-left: 1em;
+    width: 35%;
+    height: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+.eight {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+#vk_groups {
+    margin: auto
+}
+
+.onet {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: white;
+    color: white;
+}
+
+.right {
+    padding-top: 1rem;
+    padding-left: 1em;
+    width: 49%;
+    text-align: center;
+    display: inline-block;
+}
+
+.left {
+    padding-top: 1rem;
+    padding-left: 1em;
+    width: 49%;
+    text-align: center;
+    display: inline-block;
+}
+
+.linkphoto {
+    display: block;
+    font-size: 0.8rem;
+    text-align: center;
+    margin: auto;
+    background-color: #849d04;
+    border-radius: 2rem;
+}
+
+.linkphoto:hover {
+    color: white;
+    opacity: 0.33;
+}
+
+.livery {
+    text-align: center;
+    height: 5rem;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://x-aero.ru/_ld/10/92371061.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.livery:hover {
+    position: relative;
+    opacity: 1;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.scenery {
+    text-align: center;
+    height: 5rem;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.avsim.su/file_images/138/img70408_3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.scenery:hover {
+    position: relative;
+    opacity: 1;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+/*Side bar*/
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DCDCDC;
+}
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+.submit {
+    height: 10px;
+    width: 10px;
+}
+
+
+/* Slideshow container */
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 10000px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 40px;
+    padding: 8px 20px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 450px) {
+
+    .prev,
+    .next,
+    .text {
+        color: white;
+        font-size: 20px;
+        padding: 8px 12px;
+
+    }
+
+    .linkphoto {
+        display: block;
+        font-size: 0.5rem;
+        text-align: center;
+        margin: auto;
+        background-color: #849d04;
+        border-radius: 2rem;
+    }
+
+    .linkphoto:hover {
+        color: white;
+        opacity: 0.5;
+    }
+}
+
+@media (max-width:250px) {
+    p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:400px) {
+    .nav-link {
+        flex-basis: 100%;
+    }
+
+    .nav {
+        padding: 1rem;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+    .right {
+        padding: 1rem;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .left {
+        padding: 1rem;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:600px) {
+    .nav {
+        flex-wrap: wrap;
+        display: flex;
+        margin-right: 0rem;
+        font-size: 1rem;
+    }
+
+    .nav-link {
+        flex-wrap: wrap;
+        margin-top: 0.5rem;
+        margin-bottom: 0.2rem;
+        margin-left: 0.5rem;
+    }
+}
+
+@media (max-width:650px) {
+    .five {
+        padding-left: 0em;
+        flex-basis: 100%;
+    }
+
+    .six {
+        padding-left: 0em;
+        flex-basis: 100%;
+    }
+
+    .seven {
+        justify-content: center;
+        padding-left: 0em;
+        flex-basis: 100%;
+    }
+
+}
